@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBook – Social Snapshots</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <h2>FlexBook</h2>
+            <nav>
+                <a href="#"><i class="fas fa-user"></i> Profile</a>
+                <a href="#"><i class="fas fa-image"></i> Posts</a>
+                <a href="#"><i class="fas fa-bell"></i> Notifications</a>
+                <a href="#"><i class="fas fa-cog"></i> Settings</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section class="profile-card">
+                <img src="./images/WhatsApp Image 2024-08-13 at 5.15.48 PM.jpeg" alt="User" />
+                <div>
+                    <h3>Ragavi Venkatesh</h3>
+                    <p>@ragavi</p>
+                    <p>Full Stack Developer. Super mom. Loves travel & food.</p>
+                </div>
+            </section>
+
+            <section class="posts" id="postContainer">
+                <!-- Posts will be injected dynamically -->
+            </section>
+
+            <div class="load-more-container">
+                <button id="loadMore">Load More Posts</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
